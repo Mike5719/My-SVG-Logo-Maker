@@ -22,7 +22,7 @@ function writeToFile(filename, answers) {
     }
 
 
-    fs.writeFile("logo.svg", svgString, (err) => {
+    fs.writeFile("./examples/logo.svg", svgString, (err) => {
         err ? console.log(err) : console.log("Generated logo.svg");
       });
 }

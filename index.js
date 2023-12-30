@@ -56,7 +56,12 @@ const questions = [
 function init() {
     inquirer.prompt(questions)
     .then(function(answers) {
+      if (answers.text.length > 3) {
+        console.log("Text entry cannot be longer than 3 characters.");
+        init();
+      } else {
         writeToFile("logo.svg", answers);
+      }
     });
   };
 

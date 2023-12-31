@@ -5,8 +5,7 @@ const {Triangle, Circle, Square} = require("./lib/shapes");
 
 //function that renders svg string based on user input
 function writeToFile(filename, answers) {
-    let svgString =
-    '<svg version="1.1" width="300" height="200" xmlns="http://www.w3.org/2000/svg">';
+    let svgString = '<svg version="1.1" width="300" height="200" xmlns="http://www.w3.org/2000/svg">';
    
     if (answers.shape === "Triangle") {
       let triangle = new Triangle(answers.shapeColour, answers.textColour, answers.text);

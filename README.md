@@ -36,6 +36,9 @@ https://github.com/SAbramson16/svg-logo-maker/blob/main/lib/circle.js
 Referenced below link for quidance on coding render() test.
 https://github.com/SAbramson16/svg-logo-maker/blob/main/tests/circle.test.js
 
+Referenced below link on how to structure if statement in index.js file.
+https://github.com/rmessett15/SVG-Logo-Maker/blob/main/index.js
+
 
 License:
 --------

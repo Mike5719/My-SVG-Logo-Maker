@@ -26,6 +26,16 @@ To run the tests the user will need to type 'npm run test' in the command line.
 **************include screenshot of sample svg logo****************************************************************************************
 
 
+Credits:
+--------
+
+Referenced below link for guidance on creating the child classes.
+https://github.com/SAbramson16/svg-logo-maker/blob/main/lib/circle.js
+
+Referenced below link for quidance on coding render() test.
+https://github.com/SAbramson16/svg-logo-maker/blob/main/tests/circle.test.js
+
+
 License:
 --------
 

@@ -22,8 +22,9 @@ Usage:
 The application is invoked in the command line using 'node index.js'.
 To run the tests the user will need to type 'npm run test' in the command line.
 
-*****************include link to video*******************************************************************************************************
-**************include screenshot of sample svg logo****************************************************************************************
+Walkthrough Video link: https://drive.google.com/file/d/1uC0_rNkrm3wnKbMmwyS6y4yThvwFsgvN/view
+
+Sample Logo: ![Sample Generated Logo](<./examples/Sample.png>)
 
 
 Credits:

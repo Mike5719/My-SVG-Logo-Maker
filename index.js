@@ -1,7 +1,7 @@
 //packages needed for this application
 const inquirer = require('inquirer');
 const fs = require('fs');
-const { Triangle, Circle, Square, } = require("./lib/shapes");
+const {Triangle, Circle, Square} = require("./lib/shapes");
 
 //function that renders svg string based on user input
 function writeToFile(filename, answers) {
